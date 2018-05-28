@@ -192,8 +192,8 @@ public class ScoreboardMenu<T> {
      * @param player The {@link Player} to render the menu for.
      */
     public void render(Player player) {
-        Scoreboard sb = Bukkit.getScoreboardManager().getNewScoreboard();
-        Objective ob = sb.registerNewObjective("selection", "dummy");
+        Scoreboard scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
+        Objective objective = scoreboard.registerNewObjective("selection", "dummy");
 
         int length = options.size();
         int displayLength = Math.min(length, 10);
@@ -206,13 +206,13 @@ public class ScoreboardMenu<T> {
             } else {
                 display = otherPrefix + display;
             }
-            ob.getScore(display).setScore(displayLength - i);
+            objective.getScore(display).setScore(displayLength - i);
         }
 
-        ob.setDisplaySlot(DisplaySlot.SIDEBAR);
-        ob.setDisplayName(title);
+        objective.setDisplaySlot(DisplaySlot.SIDEBAR);
+        objective.setDisplayName(title);
 
-        player.setScoreboard(sb);
+        player.setScoreboard(scoreboard);
     }
 
     /**
