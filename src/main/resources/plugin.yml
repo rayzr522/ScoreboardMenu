@@ -2,5 +2,5 @@ main: me.rayzr522.scoreboardmenu.ScoreboardMenuPlugin
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
-website: https://github.com/RayzrDev/ScoreboardMenu
+website: https://github.com/Rayzr522/ScoreboardMenu
 author: Rayzr522

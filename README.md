@@ -12,7 +12,7 @@ With **ScoreboardMenu** you can easily use Scoreboards as option selectors.
 
 ## Usage
 
-First, [install the plugin](#installing). Any plugin that uses this library will require the library itself to be installed.
+First, [install the plugin](#installation). Any plugin that uses this library will require the library itself to be installed.
 
 Next, add the following to your Maven `pom.xml` file: 
 
@@ -58,7 +58,7 @@ Full documentation is available in the form of JavaDocs which are part of the Ma
 
 ## Installation
 
-Just grab the latest JAR file off of the [releases page](https://github.com/RayzrDev/ScoreboardMenu/releases) and drop it in your plugins folder.
+Just grab the latest JAR file off of the [releases page](https://github.com/Rayzr522/ScoreboardMenu/releases) and drop it in your plugins folder.
 
 ## Join Me
 
